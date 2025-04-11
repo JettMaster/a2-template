@@ -5,6 +5,9 @@
 }
 
 .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 1249px;
     min-height: 89px;
     margin: 0 auto;
@@ -14,6 +17,12 @@
 .nav-menu {
     display: flex;
     justify-content: center;
+    gap: 40px;
+    text-transform: uppercase;
     color: #E0E0E0;
 }
 
+.header-info {
+    display: flex;
+    justify-content: center;
+}
