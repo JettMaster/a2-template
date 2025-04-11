@@ -1,0 +1,19 @@
+.header {
+    width: 100%;
+    height: 688px;
+    background-color: #E0E0E0;
+}
+
+.nav {
+    width: 1249px;
+    min-height: 89px;
+    margin: 0 auto;
+    background-color: #000000;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    color: #E0E0E0;
+}
+
