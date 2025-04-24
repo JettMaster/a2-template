@@ -22,6 +22,13 @@
 @font-face {
     font-family: 'Open Sans';
     font-style: normal;
+    font-weight: 600;
+    src: url(../fonts/OpenSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
     font-weight: 700;
     src: url(../fonts/OpenSans-Bold.ttf);
 }
@@ -39,6 +46,7 @@
     background-color: #E0E0E0;
     font-family: 'Open Sans';
     font-weight: 400;
+    padding-top: 30px;
     padding-bottom: 57.6px;
 }
 
@@ -61,7 +69,7 @@
 }
 
 .item-link {
-    padding: 42px 25px 35px;
+    padding: 33px 25px 36px;
     text-decoration: none;
     color: #E0E0E0;
 }
@@ -118,6 +126,111 @@
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
+
+.offers-container {
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans';
+    padding-top: 107px;
+    gap: 101px;
+}
+
+.offers-text-section {
+    max-width: 502px;
+}
+
+
+.offers-header {
+    color: #585858;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 55px;
+    margin-bottom: 50px;
+}
+
+.offers-text {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 64px;
+    line-height: 1.75;
+}
+
+.offers-button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 50px;
+    border: 2px solid #ff2d2d;
+    border-radius: 6px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #ff2d2d;
+}
+
+.offers {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 610px;
+    gap: 19px;
+}
+
+.offer-item {
+    max-width: 288px;
+}
+
+.offer-item-header {
+    letter-spacing: 1.5px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 13px;
+}
+
+.offer-item-text {
+    opacity: 0.7;
+    line-height: 1.75;;
+}
+
+.managment-header::before {
+    display: block;
+    width: 41px;
+    height: 41px;
+    margin-bottom: 23px;
+    content: url(https://vallek.github.io/skillfactory-module-3/images/service-1.png);
+}
+
+.design-header::before {
+    display: block;
+    width: 41px;
+    height: 41px;
+    margin-bottom: 23px;
+    content: url(https://vallek.github.io/skillfactory-module-3/images/service-1.png);
+}
+
+.logo-header::before {
+    display: block;
+    width: 41px;
+    height: 41px;
+    margin-bottom: 23px;
+    content: url(https://vallek.github.io/skillfactory-module-3/images/service-1.png);
+}
+
+.animation-header::before {
+    display: block;
+    width: 41px;
+    height: 41px;
+    margin-bottom: 23px;
+    content: url(https://vallek.github.io/skillfactory-module-3/images/service-1.png);
+}
+
+.offer-item-text {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
 
 @media (max-width: 1105px) {
     .header-content {
