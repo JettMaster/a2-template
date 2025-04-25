@@ -230,7 +230,10 @@
     font-weight: 400;
 }
 
-.feature-container {
+.feature-section {
+    flex-wrap: wrap;
+    max-width: 1255px;
+    margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
 }
 
