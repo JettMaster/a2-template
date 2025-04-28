@@ -375,10 +375,6 @@
 }
 
 @media (max-width: 600px) {
-    .nav-menu {
-        /* flex-direction: column;
-        padding: 20px 0; */
-    }
 
     .item-link {
         padding: 15px 10px;
